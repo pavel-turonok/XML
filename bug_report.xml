@@ -2,12 +2,14 @@
 <root>
   <Title>Нажатие кнопки 'Корзина' на главной странице не перенаправляет на страницу Корзина</Title>
   <Project>Сайт магазина товаров 'AliExpress</Project>
-    <steps>
+  <steps>
     <step_1>Зайти на главную страницу сайта (ссылка_на_сайт)</step_1>
     <step_2>Нажать кнопку Корзина</step_2>
+  </steps>
   <enviroment>
     <OS>Windows 10 x64 build 19043</OS>
     <browser>Google Chrome v96.0.4664.45 x64</browser>
+  </enviroment>  
   <component>Кнопка Корзина</component>
   <build>1.7.4</build>
   <actual_resoult>Нажатие кнопки Корзина НЕ перенаправляет на страницу Корзина</actual_resoult>
